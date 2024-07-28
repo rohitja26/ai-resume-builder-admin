@@ -17,7 +17,10 @@ module.exports = [
         'Content-Type',
         'Authorization',
         'X-Requested-With',
-        'Access-Control-Allow-Origin'
+        'Accept',
+        'Origin',
+        'Access-Control-Allow-Origin',
+        'Access-Control-Allow-Headers'
       ],
     },
   },
